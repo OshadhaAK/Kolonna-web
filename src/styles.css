@@ -109,6 +109,7 @@ p{
 .toggle,
 [id^=drop] {
   display: none;
+  position: fixed;
 }
 
 
@@ -117,6 +118,7 @@ p{
 nav {
   margin: 0;
   padding: 0;
+  
 }
 #logo a {
     float: left;
@@ -291,6 +293,7 @@ a.reqe-button {
   }
   nav {
     margin: 0;
+    
   }
   /* Hide the navigation menu by default */
   /* Also hide the  */
@@ -445,10 +448,10 @@ background-color: #212121;
 /* headder */
 /*-- banner-- */
 .headder-top {
-    position: absolute;
+    position: fixed;
     width: 100%;
     padding: 1em 2em;
-    background: rgba(230, 230, 230, 0.5);
+    background: rgba(19, 18, 18, 0.5);
 }
 .main-banner {
     padding-top: 20em;
