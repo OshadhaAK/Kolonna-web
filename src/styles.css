@@ -1,4 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
 html,
 body {
 padding: 0;
@@ -109,7 +114,6 @@ p{
 .toggle,
 [id^=drop] {
   display: none;
-  position: fixed;
 }
 
 
@@ -118,7 +122,6 @@ p{
 nav {
   margin: 0;
   padding: 0;
-  
 }
 #logo a {
     float: left;
@@ -177,7 +180,7 @@ nav ul li {
 /* Styling the links */
 
 nav ul li a {
-    color: rgb(255, 255, 255);
+    color: #000;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 14px;
@@ -196,14 +199,14 @@ nav ul li ul li:hover {
 }
 
 .menu li .drop-text:hover {
-  color: rgb(255, 255, 255);
+  color: #000;
   border: none;
 }
 /* Background color change on Hover */
 /*.menu li.active a,.menu li a:hover{border-bottom: 1px solid #d4d4d4;}*/
 .menu li a:hover {
   opacity: 0.8;
-  color:#f8f9fa;
+  color:#000;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -217,7 +220,7 @@ nav ul ul {
   display: none;
   position: absolute;
   top: 33px;
-  background: rgb(255, 255, 255);
+  background: #000;
   padding: 10px;
   border-radius: 4px;
   box-shadow: -1px 1px 5px black;
@@ -293,7 +296,6 @@ a.reqe-button {
   }
   nav {
     margin: 0;
-    
   }
   /* Hide the navigation menu by default */
   /* Also hide the  */
@@ -310,7 +312,7 @@ a.reqe-button {
     border: none;
     float: right;
     background-color: #5facbe;
-    color: rgb(255, 255, 255);
+    color: #fff;
     border-radius: 50px;
     cursor: pointer;
   }
@@ -355,7 +357,7 @@ a.reqe-button {
   /* Display Dropdown when clicked on Parent Lable */
   [id^=drop]:checked+ul {
     display: block;
-    background: rgba(126, 243, 165, 0.801);
+    background: #fff;
     padding: 15px 0;
     text-align: center;
     width: 100%;
@@ -448,17 +450,16 @@ background-color: #212121;
 /* headder */
 /*-- banner-- */
 .headder-top {
-    position: fixed;
+    position: relative;
     width: 100%;
     padding: 1em 2em;
-    background: rgba(19, 18, 18, 0.5);
+    background: rgba(230, 230, 230, 0.5);
 }
 .main-banner {
     padding-top: 20em;
 }
 .banner-left-side{
     background: url(./assets/images/home.jpg);
-    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -466,7 +467,6 @@ background-color: #212121;
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height:800px;
-    
 	}
 
 .social-icons ul li{
@@ -513,7 +513,6 @@ font-family: 'Patrick Hand', cursive;
     line-height: 27px;
     letter-spacing: 1px;
     padding: 3em 15em 0em;
-    font-weight: bold;
 }
 .banner-right-txt h5 {
     font-size: 30px;
@@ -573,7 +572,7 @@ box-shadow: 1px 1px 7px #a2a2a2;
     -ms-transition: 0.5s all;
 }
 .grid-wthree-service:hover {
-    background: #6257ff62;
+    background: #ffc107;
 }
 /* --veg-info --*/
 .w3three-veg-org h6,.blog-info a ul li ,.news-date-list ul li a,.footer-office-hour h6,.footer-office-hour ul li span,.store-details h6{
@@ -592,7 +591,7 @@ box-shadow: 1px 1px 7px #a2a2a2;
     width: 19%;
 }
 .w3ls-post-img {
-    position: static;
+    position: relative;
 }
 .blog-info a ul {
     margin: 0;
@@ -601,10 +600,10 @@ box-shadow: 1px 1px 7px #a2a2a2;
     text-align: center;
 }
 .blog-txt-info {
-    position: static;
+    position: absolute;
     top: 138px;
     background: #f7f7f7;
-    width: 100%;
+    width: 84%;
     left: 8%;
     padding: 1em 1.5em;
 }
