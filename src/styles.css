@@ -310,7 +310,7 @@ a.reqe-button {
     border: none;
     float: right;
     background-color: #5facbe;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-radius: 50px;
     cursor: pointer;
   }
@@ -355,7 +355,7 @@ a.reqe-button {
   /* Display Dropdown when clicked on Parent Lable */
   [id^=drop]:checked+ul {
     display: block;
-    background: #fff;
+    background: rgba(126, 243, 165, 0.801);
     padding: 15px 0;
     text-align: center;
     width: 100%;

@@ -1,0 +1,19 @@
+.container{
+    margin-top: 0;
+    position: relative;
+}
+#left{
+    float:left;
+    width:50%;
+    overflow:hidden;
+    
+}
+#right{
+    float:right;
+    width:50%;
+    overflow:hidden;
+} 
+#left a img{
+float: right;
+
+}
