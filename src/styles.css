@@ -450,7 +450,7 @@ background-color: #212121;
 /* headder */
 /*-- banner-- */
 .headder-top {
-    position: relative;
+    position: absolute;
     width: 100%;
     padding: 1em 2em;
     background: rgba(230, 230, 230, 0.5);
